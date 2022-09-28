@@ -1,0 +1,10 @@
+name: Time Ticker
+type: module
+core_version_requirement: ^9 || ^10
+description: Display time and date as per selected timezone.
+package: Time
+
+dependencies:
+  - drupal:block
+
+configure: time_ticker.admin_settings

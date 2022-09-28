@@ -1,0 +1,6 @@
+time_ticker.admin_settings_link:
+  title: Timezone Settings
+  description: Provide settings for timezone
+  route_name: time_ticker.admin_settings
+  parent: system.admin_config_regional
+  weight: 10

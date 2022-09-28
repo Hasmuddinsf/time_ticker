@@ -1,0 +1,7 @@
+time_ticker.admin_settings:
+  path: /admin/config/regional/time-ticker
+  defaults:
+    _form: \Drupal\time_ticker\Form\TimeSettingsForm
+    _title: Timezone Settings
+  requirements:
+    _permission: administer content
