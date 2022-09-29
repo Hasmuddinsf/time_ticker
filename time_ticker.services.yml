@@ -1,0 +1,3 @@
+services:
+  time_ticker.time:
+    class: Drupal\time_ticker\TimeService
