@@ -6,7 +6,7 @@
 function time_ticker_theme($existing, $type, $theme, $path) {
     return [
       'time_ticker_block' => [
-        'variables' => ['current_time' => NULL],
+        'variables' => ['current_time' => NULL,'country' => NULL,'city' => NULL],
       ],
     ];
   }

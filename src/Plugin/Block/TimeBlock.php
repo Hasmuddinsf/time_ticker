@@ -56,9 +56,18 @@ class TimeBlock extends BlockBase implements ContainerFactoryPluginInterface{
    */
   public function build() {
 
+    $config = \Drupal::config('time_ticker.settings');
+    $country = $config->get('country');
+    $city     = $config->get('city');
+
     return [
       '#theme' => 'time_ticker_block',
       '#current_time' => $this->time->getTime(),
+      '#country' => $country,
+      '#city' => $city,
+      '#cache' => [
+        'max-age' => 0,
+      ],
     ];
    
   }

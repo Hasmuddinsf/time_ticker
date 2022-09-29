@@ -62,7 +62,7 @@ class TimeSettingsForm extends ConfigFormBase {
         'Europe/Oslo' => $this->t('Europe/Oslo'),
         'Europe/London' => $this->t('Europe/London'),
       ],
-      '#default_value' => $config->get('timezone'),
+      '#default_value' => $config->get('timezone'),     
       
     ];
     
