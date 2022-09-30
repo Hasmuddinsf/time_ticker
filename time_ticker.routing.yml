@@ -4,4 +4,4 @@ time_ticker.admin_settings:
     _form: \Drupal\time_ticker\Form\TimeSettingsForm
     _title: Timezone Settings
   requirements:
-    _permission: administer content
+    _permission: administer blocks
